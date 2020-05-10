@@ -1,0 +1,158 @@
+.nav-main {
+  max-width: 90%;
+  padding: 10px 10px;
+  margin: 0px auto;
+}
+
+.nav-main ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.bracket {
+  color: #5d6778;
+  font-size: 0.8rm;
+  font-weight: 600;
+}
+
+.nav-main li a {
+  display: block;
+  padding: 15px 15px;
+  color: #5d6778;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav-main li a:hover {
+  border-bottom: 2px solid #999;
+}
+
+.nav-main li a:hover,
+.nav-main .items-btn:hover {
+  background-color: #fafafafa;
+}
+
+.nav-main .brand {
+  display: block;
+  float: left;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+  color: #000;
+}
+
+.nav-main .brand .last-name {
+  color: #4550e6;
+}
+
+.nav-main .brand-name {
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 1.9rem;
+}
+
+.nav-main .brand-text {
+  color: #252930;
+  font-weight: bold;
+}
+
+.nav-main .items {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.nav-main .items-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav-main .items-icon .nav-icon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.nav-main .items-icon .nav-icon:before,
+.nav-main .items-icon .nav-icon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.nav-main .items-icon .nav-icon:before {
+  top: 5px;
+}
+
+.nav-main .items-icon .nav-icon:after {
+  top: -5px;
+}
+
+.nav-main .items-btn {
+  display: none;
+}
+
+.nav-main .items-btn:checked ~ .items {
+  max-height: 370px;
+}
+
+.nav-main .items-btn:checked ~ .items-icon .nav-icon {
+  background: transparent;
+}
+
+.nav-main .items-btn:checked ~ .items-icon .nav-icon:before {
+  transform: rotate(-45deg);
+}
+
+.nav-main .items-btn:checked ~ .items-icon .nav-icon:after {
+  transform: rotate(45deg);
+}
+
+.nav-main .items-btn:checked ~ .items-icon:not(.steps) .nav-icon:before,
+.nav-main .items-btn:checked ~ .items-icon:not(.steps) .nav-icon:after {
+  top: 0;
+}
+
+@media (max-width: 48em) {
+  .nav-main li a:hover {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .nav-main li {
+    float: left;
+  }
+  .nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-main .items {
+    max-height: none;
+  }
+  .nav-main .items-icon {
+    display: none;
+  }
+}
+@media (max-width: 960px) and (min-width: 768px) {
+  .nav-main {
+    font-size: 12px;
+  }
+}
