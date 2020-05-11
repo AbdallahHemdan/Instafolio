@@ -1,0 +1,97 @@
+.proj-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+.proj-card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.proj-card-footer > p {
+  color: #333333;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.proj-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.proj-card-footer > p:hover {
+  color: #868e96;
+}
+
+.proj-image-div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.proj-detail-div {
+  text-align: center;
+}
+
+.card-title {
+  color: black;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  color: #868e96;
+  font-size: 20px;
+}
+.card-image {
+  height: 200px;
+  width: 200px;
+}
+.repo-stats {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgb(106, 115, 125);
+  font-size: 18px;
+  /* margin-left: 30%; */
+}
+.repo-left-stat {
+  display: flex;
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  margin-left: 22%;
+  margin-top: 5px;
+}
+.language-color {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+.repo-left-stat span {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+.repo-star-svg {
+  margin-right: 0.3rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.github-logo {
+  margin-right: 5px;
+  font-size: 20px;
+}
