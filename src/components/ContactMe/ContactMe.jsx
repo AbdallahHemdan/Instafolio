@@ -99,7 +99,7 @@ class ContactMe extends Component {
                   placeholder={"Leave your message here !"}
                 ></textarea>
               </div>
-              <div className="project-button">
+              <div className="submit-button">
                 <button
                   type="button"
                   className="main-button"

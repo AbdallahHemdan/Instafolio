@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.error-img {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-bottom: 0px;
+}
+.back-btn {
+  max-width: 150px;
+  margin: 0 auto;
+}

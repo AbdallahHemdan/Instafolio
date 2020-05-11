@@ -198,4 +198,12 @@ const projectsCards = [
   }
 ];
 
-export { aboutData, myImages, mySkills, projectsCards }
+const socialMedia = {
+  facebook: "https://www.facebook.com/profile.php?id=100009270028400",
+  github: "https://github.com/AbdallahHemdan",
+  linkedin: "https://www.linkedin.com/in/abdallah-a-hemdan-4a94a614a/",
+  gmail: "abdallah.ahmed.hemdan@gmail.com",
+  hackerrank: "https://www.hackerrank.com/Hemdan?hr_r=1"
+}
+
+export { aboutData, myImages, mySkills, projectsCards, socialMedia }
