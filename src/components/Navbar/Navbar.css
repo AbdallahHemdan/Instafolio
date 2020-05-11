@@ -2,6 +2,7 @@
   max-width: 90%;
   padding: 10px 10px;
   margin: 0px auto;
+  background-color: #fff;
 }
 
 .nav-main ul {
@@ -50,21 +51,22 @@
 }
 
 .nav-main .brand-name {
-  font-family: "Satisfy", cursive;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0 10px;
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
+.nav-main .brand-name .first-name {
+  font-weight: 600;
+}
 .nav-main .brand-text {
   color: #252930;
-  font-weight: bold;
 }
 
 .nav-main .items {
   clear: both;
   max-height: 0;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.5s ease-out;
 }
 
 .nav-main .items-icon {
@@ -77,22 +79,22 @@
 }
 
 .nav-main .items-icon .nav-icon {
-  background: #333;
+  background: #4550e6;
   display: block;
   height: 2px;
   position: relative;
-  transition: background 0.2s ease-out;
-  width: 18px;
+  transition: background 0.5s ease-out;
+  width: 30px;
 }
 
 .nav-main .items-icon .nav-icon:before,
 .nav-main .items-icon .nav-icon:after {
-  background: #333;
+  background: #4550e6;
   content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
   width: 100%;
 }
 
@@ -154,5 +156,14 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .nav-main {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 455px) {
+  .nav-main .brand-name {
+    font-size: 1.4em;
+  }
+  .nav-main .brand {
+    margin-top: 15px;
   }
 }
