@@ -24,6 +24,10 @@
   gap: 1rem 1rem;
 }
 
+.project-link:hover {
+  text-decoration: none;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .project-heading {
