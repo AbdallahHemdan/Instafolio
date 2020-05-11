@@ -23,7 +23,6 @@
 
 .about-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 .about-text-container {
   display: flex;
@@ -86,7 +85,7 @@
   }
   .about-text,
   .skills-text {
-    font-size: 26px;
+    font-size: 30px;
     text-align: left;
     margin-bottom: 10px;
   }

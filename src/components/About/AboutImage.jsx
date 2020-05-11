@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css";
 import { myImages } from "./../../api/fake";
+import "./About.css";
 
 const AboutImage = (props) => {
   return (

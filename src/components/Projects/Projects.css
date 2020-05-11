@@ -1,0 +1,43 @@
+.projects-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.project-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.project-subtitle {
+  margin: 0px;
+  margin-bottom: 50px;
+  color: #798395;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
+
+.project-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
