@@ -1,0 +1,97 @@
+.contacts-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+.contact-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.contact-subtitle {
+  margin: 0px;
+  margin-bottom: 50px;
+  color: #798395;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
+
+.user-mail::placeholder {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 200;
+  opacity: 0.1;
+}
+
+.field {
+  margin-bottom: 30px;
+  height: 50px;
+  max-width: 700px;
+}
+
+.submit-btn {
+  background-color: #4651e6;
+  color: #fff;
+}
+
+.main-button {
+  background-color: #4550e6;
+  border: solid 1px #4550e6;
+  color: white;
+  font-weight: 700;
+  width: 200px;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: ease-in 0.3s;
+}
+.project-button {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+/* Media Query */
+@media (max-width: 768px) {
+  .main-button {
+    font-size: 15px;
+    padding: 12px 18px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .main-button {
+    font-size: 12px;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .contact-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}

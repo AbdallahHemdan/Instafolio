@@ -10,7 +10,7 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <Fade top>
+        <Fade top duration={1500}>
           <div className="nav-main fixed-top">
             <a href="/" className="brand">
               <span className="bracket">{"<"}</span>
