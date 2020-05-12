@@ -57,6 +57,10 @@
   background-color: #1da1f2;
 }
 
+.instagram i {
+  background-color: rgb(253, 83, 111);
+}
+
 .footer-text {
   text-align: center;
   color: #868e96;
@@ -72,7 +76,8 @@
 .gitlab i:hover,
 .github i:hover,
 .linkedin i:hover,
-.facebook i:hover {
+.facebook i:hover,
+.instagram i:hover {
   background-color: var(--social-icons);
   transition: 0.3s ease-in;
 }

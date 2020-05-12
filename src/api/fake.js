@@ -203,7 +203,9 @@ const socialMedia = {
   github: "https://github.com/AbdallahHemdan",
   linkedin: "https://www.linkedin.com/in/abdallah-a-hemdan-4a94a614a/",
   gmail: "abdallah.ahmed.hemdan@gmail.com",
-  hackerrank: "https://www.hackerrank.com/Hemdan?hr_r=1"
+  hackerrank: "https://www.hackerrank.com/Hemdan?hr_r=1",
+  twitter: "https://twitter.com/Abdalla80820679",
+  instagram: "https://www.instagram.com/abdallah_a_hemdan/"
 }
 
 export { aboutData, myImages, mySkills, projectsCards, socialMedia }

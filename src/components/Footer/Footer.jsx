@@ -49,6 +49,15 @@ class Footer extends Component {
             <i className="fa fa-facebook-f"></i>
             <span></span>
           </a>
+          <a
+            href={socialMedia.twitter}
+            className="icon-button twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-twitter"></i>
+            <span></span>
+          </a>
         </div>
         <Fade bottom duration={1000} distance="5px">
           <div className="footer-div">
