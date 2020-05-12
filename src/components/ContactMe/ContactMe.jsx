@@ -36,21 +36,23 @@ class ContactMe extends Component {
         errMessage = "⚠ Invalid Email Address";
         hasError = true;
       }
-    } else if (this.state.message === "") {
-      errMessage = "⚠ Your Message can not be empty!";
-      hasError = true;
-    } else if (this.state.subject === "") {
-      console.log("Ramadan-Kareem");
+    }
+    if (this.state.subject === "" && !errMessage) {
       errMessage = "⚠ Email Subject can not be empty!";
       hasError = true;
     }
+    if (this.state.message === "" && !errMessage) {
+      errMessage = "⚠ Your Message can not be empty!";
+      hasError = true;
+    }
+
     if (hasError) {
       this.setState({ errMessage, success: false, submitCheck: false });
     } else {
       this.setState({
         success: true,
         submitCheck: true,
-        errMessage: "🎉 You Message has been submitted successfully",
+        errMessage: "🎉 Thanks, your message has been received successfully.",
         name: "",
         email: "",
         subject: "",

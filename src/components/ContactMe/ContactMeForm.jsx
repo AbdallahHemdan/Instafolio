@@ -56,6 +56,7 @@ const ContactMeForm = ({
           rows="7"
           placeholder={"Leave your message here !"}
           onChange={handleStorMessage}
+          value={data.message}
         ></textarea>
       </div>
       {!data.success || data.submitCheck ? (
