@@ -20,7 +20,7 @@ import sh from "./../assets/images/Shortest_path.svg";
 import sorting from "./../assets/images/sorting.svg";
 import first from "./../assets/images/first.svg";
 import delivery from "./../assets/images/delivary.png";
-import paint from "./../assets/images/paint.png";
+import paint from "./../assets/images/interface.svg";
 import didUMean from "./../assets/images/did-u-mean.png";
 import toolbox from "./../assets/images/algo.png";
 

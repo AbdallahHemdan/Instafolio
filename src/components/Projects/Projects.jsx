@@ -4,7 +4,6 @@ import InstaBtn from "./../InstaBtn/InstaBtn";
 
 import { projectsCards } from "./../../api/fake";
 import { Link } from "react-router-dom";
-import { Fade } from "react-reveal";
 
 import "./Projects.css";
 
@@ -15,7 +14,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <Fade left duration={1000} distance="70px">
+      <>
         <div className="virtual-projects" id="projects"></div>
         <div className="projects-main" id="projects">
           <div className="project-main-div">
@@ -57,7 +56,7 @@ class Projects extends Component {
             />
           </div>
         </div>
-      </Fade>
+      </>
     );
   }
 }

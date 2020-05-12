@@ -15,7 +15,7 @@ html {
 }
 
 html[data-theme="dark"] {
-  --bg: #000;
+  --bg: #131418;
   --color-first: #fff;
   --bg-nav-item-link: #4550e6;
   --bg-nav-item-hover: #000;
