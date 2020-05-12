@@ -1,8 +1,13 @@
+.virtual-contact {
+  margin-bottom: 60px;
+}
+
 .contacts-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
 }
+
 .contact-heading {
   font-size: 56px;
   font-weight: 400;
@@ -28,6 +33,11 @@
 .field {
   margin-bottom: 30px;
   height: 50px;
+  max-width: 700px;
+}
+
+.validation-container {
+  margin-bottom: 30px;
   max-width: 700px;
 }
 
