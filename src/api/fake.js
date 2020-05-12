@@ -109,8 +109,8 @@ const projectsCards = [
     ],
     language: "JavaScript",
     langColor: "yellow",
-    stars: "17",
-    forks: "2"
+    stars: 17,
+    forks: 2
   },
   {
     title: "Pathfinding Visualizer",
@@ -121,20 +121,20 @@ const projectsCards = [
     ],
     language: "JavaScript",
     langColor: "yellow",
-    stars: "10",
-    forks: "1"
+    stars: 10,
+    forks: 1
   },
   {
     title: "Sorting Visualizer",
-    subtitle: "VanillaJS app for visualizing a bunch of well-known sorting algorithms (Selection, Bubble, Merge, ... etc.",
+    subtitle: "VanillaJS app for visualizing a bunch of well-known sorting algorithms (Selection, Bubble, Merge, ... etc.)",
     image: sorting,
     footerLink: [
       { name: "Github", url: "https://github.com/AbdallahHemdan/Sorting.Visualizer" },
     ],
     language: "JavaScript",
     langColor: "yellow",
-    stars: "9",
-    forks: "1"
+    stars: 9,
+    forks: 1
   },
   {
     title: "First To Solve",
@@ -145,8 +145,8 @@ const projectsCards = [
     ],
     language: "JavaScript",
     langColor: "yellow",
-    stars: "7",
-    forks: "1"
+    stars: 7,
+    forks: 1
   },
   {
     title: "Tayara",
@@ -157,8 +157,8 @@ const projectsCards = [
     ],
     language: "C",
     langColor: "gray",
-    stars: "5",
-    forks: "2"
+    stars: 5,
+    forks: 2
   },
   {
     title: "Did U Mean",
@@ -169,8 +169,8 @@ const projectsCards = [
     ],
     language: "Cpp",
     langColor: "yellow",
-    stars: "6",
-    forks: "0"
+    stars: 6,
+    forks: 0
   },
   {
     title: "Paint For Kids",
@@ -181,8 +181,8 @@ const projectsCards = [
     ],
     language: "C",
     langColor: "yellow",
-    stars: "6",
-    forks: "0"
+    stars: 6,
+    forks: 0
   },
   {
     title: "Algorithmic Toolbox",
@@ -193,8 +193,8 @@ const projectsCards = [
     ],
     language: "Cpp",
     langColor: "yellow",
-    stars: "26",
-    forks: "22"
+    stars: 26,
+    forks: 22
   }
 ];
 
