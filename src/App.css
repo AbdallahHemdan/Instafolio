@@ -1,0 +1,33 @@
+html {
+  --bg: #fff;
+  --bg-panel: #4550e6;
+  --bg-bracket: #5d6778;
+  --bg-nav-item-link: #999;
+  --bg-nav-item-hover: #fafafafa;
+  --color-list-item: #5d6778;
+  --color-first: #000;
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  --color-divider: #000;
+  --bg-form-control: #fff;
+  --color-github-link: #333333;
+  --color-repo-stats: rgb(106, 115, 125);
+  --social-icons: #000;
+}
+
+html[data-theme="dark"] {
+  --bg: #000;
+  --color-first: #fff;
+  --bg-nav-item-link: #4550e6;
+  --bg-nav-item-hover: #000;
+  --color-shadow: rgba(255, 255, 255, 0.2);
+  --color-list-item: #fcfcfcfc;
+  --color-divider: #fff;
+  --bg-form-control: #fafafafa;
+  --color-github-link: #fff;
+  --color-repo-stats: #fff;
+  --social-icons: rgba(255, 255, 255, 0.4);
+}
+body {
+  background: var(--bg);
+  color: var(--color-first);
+}

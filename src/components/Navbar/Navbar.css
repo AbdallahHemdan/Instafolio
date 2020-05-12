@@ -2,7 +2,7 @@
   max-width: 90%;
   padding: 10px 10px;
   margin: 0px auto;
-  background-color: #fff;
+  background-color: var(--bg);
 }
 
 .nav-main ul {
@@ -10,31 +10,37 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: var(--bg);
 }
 
 .bracket {
-  color: #5d6778;
+  color: var(--bg-bracket);
   font-size: 0.8rm;
   font-weight: 600;
 }
-
+.theme-switch {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+  color: var(--bg-panel);
+}
 .nav-main li a {
   display: block;
   padding: 15px 15px;
-  color: #5d6778;
+  color: var(--color-list-item);
   font-weight: 600;
   text-decoration: none;
   font-size: 1.1em;
 }
 
 .nav-main li a:hover {
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid var(--bg-nav-item-link);
 }
 
 .nav-main li a:hover,
 .nav-main .items-btn:hover {
-  background-color: #fafafafa;
+  background-color: var(--bg-nav-item-hover);
 }
 
 .nav-main .brand {
@@ -43,11 +49,11 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
-  color: #000;
+  color: var(--color-first);
 }
 
 .nav-main .brand .last-name {
-  color: #4550e6;
+  color: var(--bg-panel);
 }
 
 .nav-main .brand-name {
@@ -58,9 +64,7 @@
 
 .nav-main .brand-name .first-name {
   font-weight: 600;
-}
-.nav-main .brand-text {
-  color: #252930;
+  color: var(--color-first);
 }
 
 .nav-main .items {
@@ -79,7 +83,7 @@
 }
 
 .nav-main .items-icon .nav-icon {
-  background: #4550e6;
+  background: var(--bg-panel);
   display: block;
   height: 2px;
   position: relative;
@@ -89,7 +93,7 @@
 
 .nav-main .items-icon .nav-icon:before,
 .nav-main .items-icon .nav-icon:after {
-  background: #4550e6;
+  background: var(--bg-panel);
   content: "";
   display: block;
   height: 100%;

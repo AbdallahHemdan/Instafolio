@@ -11,10 +11,14 @@ class Home extends Component {
     super(props);
     this.state = {};
   }
+
   render() {
     return (
       <div className="home">
-        <Navbar />
+        <Navbar
+          onThemeChange={this.props.onThemeChange}
+          light={this.props.light}
+        />
         <About />
         <Projects />
         <ContactMe />

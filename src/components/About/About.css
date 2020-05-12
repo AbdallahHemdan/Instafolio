@@ -48,7 +48,7 @@
 .about-text-description {
   font-size: 20px;
   line-height: 40px;
-  color: #798395;
+  color: #9199a9;
 }
 
 .about-image-div > img {
@@ -57,7 +57,7 @@
 }
 
 .separator {
-  color: #000;
+  color: var(--color-divider);
   font-size: 22px;
   font-weight: 400;
 }

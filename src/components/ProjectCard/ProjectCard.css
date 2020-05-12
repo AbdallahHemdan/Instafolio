@@ -1,9 +1,9 @@
 .proj-card {
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  background-color: var(--bg);
+  box-shadow: var(--color-shadow) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .proj-card-footer {
   display: flex;
@@ -13,14 +13,14 @@
   margin-bottom: 0;
 }
 .proj-card-footer > p {
-  color: #333333;
+  color: var(--color-github-link);
   cursor: pointer;
   margin-right: 10px;
   text-align: center;
 }
 
 .proj-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: var(--color-shadow) 0px 20px 30px -10px;
 }
 
 .proj-card-footer > p:hover {
@@ -37,7 +37,7 @@
 }
 
 .card-title {
-  color: black;
+  color: var(--color-first);
   font-size: 30px;
   margin: 0px;
   font-weight: 400;
@@ -50,12 +50,14 @@
   font-size: 20px;
 }
 .card-image {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 .repo-stats {
   font-size: 13px;
-  color: rgb(106, 115, 125);
+  color: var(--color-repo-stats);
   font-size: 18px;
 }
 .repo-left-stat {

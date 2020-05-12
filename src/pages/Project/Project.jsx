@@ -34,7 +34,10 @@ class Project extends Component {
       return <Redirect to="/no-match" />;
     return (
       <div className="project">
-        <Navbar />
+        <Navbar
+          onThemeChange={this.props.onThemeChange}
+          light={this.props.light}
+        />
         {this.state.detailsIsLoaded ? (
           <div className="project-main">
             <Fade left duration={1000}>
