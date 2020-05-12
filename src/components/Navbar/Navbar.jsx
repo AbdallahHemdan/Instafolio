@@ -8,7 +8,6 @@ class Navbar extends Component {
     this.state = {};
   }
   render() {
-    const { light } = this.props;
     return (
       <>
         <Fade top duration={1500}>
@@ -39,7 +38,7 @@ class Navbar extends Component {
                 className="contact-item theme-switch"
                 onClick={this.props.onThemeChange}
               >
-                {light ? (
+                {this.props.light ? (
                   <i className="fa fa-toggle-off"></i>
                 ) : (
                   <i className="fa fa-toggle-on"></i>

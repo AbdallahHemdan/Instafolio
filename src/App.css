@@ -12,6 +12,7 @@ html {
   --color-github-link: #333333;
   --color-repo-stats: rgb(106, 115, 125);
   --social-icons: #000;
+  scroll-behavior: smooth;
 }
 
 html[data-theme="dark"] {

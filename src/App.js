@@ -15,8 +15,20 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      light: true,
+      light: localStorage.getItem('theme') !== null ? (localStorage.getItem('theme') === 'true') : true,
     };
+  }
+
+  componentDidMount() {
+    if (this.state.light) {
+      document.documentElement.setAttribute("data-theme", "light");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  }
+
+  handleStoreTheme = () => {
+    localStorage.setItem('theme', !this.state.light);
   }
 
   handleChangeTheme = () => {
@@ -26,6 +38,7 @@ class App extends Component {
     } else {
       document.documentElement.setAttribute("data-theme", "light");
     }
+    this.handleStoreTheme();
   };
 
   render() {
@@ -39,7 +52,8 @@ class App extends Component {
             />
           </Route>
           <Route path="/project">
-            <Project onThemeChange={this.handleChangeTheme}
+            <Project
+              onThemeChange={this.handleChangeTheme}
               light={this.state.light}
             />
           </Route>
