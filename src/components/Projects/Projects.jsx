@@ -15,7 +15,8 @@ class Projects extends Component {
   }
   render() {
     return (
-      <Fade left duration={2000} distance="100px">
+      <Fade left duration={1000} distance="70px">
+        <div className="virtual-projects" id="projects"></div>
         <div className="projects-main" id="projects">
           <div className="project-main-div">
             <div className="project-header">
@@ -28,7 +29,7 @@ class Projects extends Component {
               {projectsCards.map((card, index) => {
                 return (
                   <Link
-                    to={`/project/${index}`}
+                    to={`/project/?id=${index}`}
                     className="project-link"
                     key={index}
                   >
@@ -42,6 +43,7 @@ class Projects extends Component {
                         stars: card.stars,
                         forks: card.forks,
                       }}
+                      full={false}
                     />
                   </Link>
                 );

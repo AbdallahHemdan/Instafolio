@@ -1,0 +1,22 @@
+.project-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.limit-card {
+  max-width: 450px;
+  float: none; /* Added */
+  margin: 0 auto;
+}
+
+.used-tech {
+  list-style: circle;
+  font-size: 20px;
+  color: #5d6778;
+}
+.used-tech li {
+  width: 100%;
+  margin-left: 0;
+}

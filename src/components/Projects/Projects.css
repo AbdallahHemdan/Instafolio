@@ -3,7 +3,9 @@
   padding: 20px 10px;
   margin: 0px auto;
 }
-
+.virtual-projects {
+  margin-bottom: 60px;
+}
 .project-heading {
   font-size: 56px;
   font-weight: 400;
