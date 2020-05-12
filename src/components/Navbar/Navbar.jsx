@@ -9,7 +9,6 @@ class Navbar extends Component {
   }
   render() {
     const { light } = this.props;
-    console.log("Light", light);
     return (
       <>
         <Fade top duration={1500}>

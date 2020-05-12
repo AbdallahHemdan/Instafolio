@@ -42,9 +42,8 @@ class NoMatch extends Component {
             src={this.state.img[this.state.counter].img}
             alt="error 404"
             className="error-img"
-            srcset=""
+            srcSet=""
           />
-
           <button
             type="button"
             className={`btn btn-${
