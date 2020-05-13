@@ -13,6 +13,7 @@ html {
   --color-repo-stats: rgb(106, 115, 125);
   --social-icons: #000;
   --color-placeholder: #000;
+  --color-error: #000;
   scroll-behavior: smooth;
 }
 
@@ -27,6 +28,7 @@ html[data-theme="dark"] {
   --bg-form-control: #151418;
   --color-github-link: #fff;
   --color-repo-stats: #fff;
+  --color-error: #fff;
   --social-icons: rgba(255, 255, 255, 0.4);
 }
 body {

@@ -2,13 +2,45 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .error-img {
-  width: 60%;
+  max-width: 150px;
+  display: grid;
+  margin: 50px auto 40px;
+  width: 100%;
   height: auto;
-  margin-left: 20%;
-  margin-bottom: 0px;
 }
+
+.lost {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--color-error);
+}
+
+.not-found {
+  color: #5d6778;
+  text-align: center;
+}
+
 .back-btn {
   max-width: 150px;
   margin: 0 auto;
+}
+
+.error-404 {
+  margin-top: 100px;
+  color: var(--bg-panel);
+}
+
+.bck {
+  display: grid;
+  margin-left: 4%;
+}
+
+@media (max-width: 48em) {
+  .error-img {
+    max-width: 100px;
+  }
 }

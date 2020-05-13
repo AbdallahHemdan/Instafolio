@@ -26,12 +26,10 @@ const aboutData = {
   title: "👋 Hey, I'm ",
   myName: "Hemdan",
   description: [
-    "Computer Engineering Student at Faculty of Engineering Cairo University from Cairo, EG.",
+    "I am Computer Engineering Student at Faculty of Engineering Cairo University from Cairo, EG.",
     "I am passionate about Front-end, Competitive programming and Computer Vision. I participated in many programming competitions like ACM ACPC, ACM ECPC, Google CodeJam, ...etc.",
     "I am seeking a challenging opportunity in which I can demonstrate my passion for software engineering and apply my skills fully to assist in the success of the company."
-  ],
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  ]
 };
 
 const myImages = [one, two, three, four, five, six, seven, eight, nine, ten];

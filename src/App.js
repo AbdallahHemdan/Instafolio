@@ -58,7 +58,9 @@ class App extends Component {
             />
           </Route>
           <Route path="*">
-            <NoMatch />
+            <NoMatch onThemeChange={this.handleChangeTheme}
+              light={this.state.light}
+            />
           </Route>
         </Switch>
       </Router >
