@@ -85,6 +85,7 @@ $ npm run start
 ![Instafolio-light](https://user-images.githubusercontent.com/40190772/81766630-c9562680-94d6-11ea-9baf-ef9aae5ebda1.png)
 ![image](https://user-images.githubusercontent.com/40190772/81760824-9147e700-94c8-11ea-8041-af5b191525a7.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761087-4bd7e980-94c9-11ea-91e2-c2dabdd1e40f.png)
+![image](https://user-images.githubusercontent.com/40190772/81772012-f27db380-94e4-11ea-9c0b-5fd89c233904.png)
 
 </div>
 
@@ -97,6 +98,7 @@ $ npm run start
 ![Instafolio-dark](https://user-images.githubusercontent.com/40190772/81766536-9e6bd280-94d6-11ea-949e-31d2e4ad568a.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761025-1cc17800-94c9-11ea-9a7f-e2910c3aa02d.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761066-3d89cd80-94c9-11ea-950f-3b002a58e1c0.png)
+![image](https://user-images.githubusercontent.com/40190772/81771996-e3970100-94e4-11ea-83e7-c1cd111175cc.png)
 
 </div>
 
