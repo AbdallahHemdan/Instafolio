@@ -14,6 +14,10 @@
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
+  -o-transition: ease-in 0.5s; /* opera */
+  -ms-transition: ease-in 0.5s; /* IE 10 */
+  -moz-transition: ease-in 0.5s; /* Firefox */
+  -webkit-transition: ease-in 0.5s; /*safari and chrome */
 }
 .main-button:hover {
   background-color: #ffffff;

@@ -71,6 +71,18 @@
   margin-top: 1.5rem;
 }
 
+.twitter i,
+.google i,
+.gitlab i,
+.github i,
+.linkedin i,
+.facebook i,
+.instagram i {
+  -o-transition: ease-in 0.3s; /* opera */
+  -ms-transition: ease-in 0.3s; /* IE 10 */
+  -moz-transition: ease-in 0.3s; /* Firefox */
+  -webkit-transition: ease-in 0.3s; /*safari and chrome */
+}
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
