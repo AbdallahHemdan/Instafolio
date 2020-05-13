@@ -4,6 +4,10 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+.virtual-about {
+  margin-bottom: 60px;
+  scroll-margin-top: 60px;
+}
 .about-container {
   width: 100%;
   padding: 20px 10px;

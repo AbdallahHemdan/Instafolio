@@ -15,6 +15,7 @@ class About extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     setInterval(() => {
       this.setState({
         ...this.state,
@@ -26,7 +27,8 @@ class About extends Component {
   render() {
     return (
       <Fade bottom duration={1500} distance="50px">
-        <div className="about-container" id="about">
+        <div className="virtual-about" id="about"></div>
+        <div className="about-container">
           <div className="about-main">
             <div className="about-text-container">
               <div>

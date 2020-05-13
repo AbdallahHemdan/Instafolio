@@ -49,16 +49,6 @@ class Project extends Component {
                   {`> ${this.state.projectDetails.subtitle}`}
                 </p>
               </div>
-              {/* <div className="build-with">
-                <h1 className="skills-text">
-                  <span className="my-skills-text">Build With</span>
-                </h1>
-                <ul className="used-tech">
-                  <li>JavaScript</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                </ul>
-              </div> */}
             </Fade>
             <Fade bottom duration={1000}>
               <div className="limit-card">
