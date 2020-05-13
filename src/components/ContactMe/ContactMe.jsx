@@ -95,7 +95,12 @@ class ContactMe extends Component {
         <div className="contacts-main">
           <div className="contact-main-div">
             <div className="contact-header">
-              <h1 className="heading contact-heading">Contact Me</h1>
+              <h1 className="heading contact-heading">
+                <span role="img" aria-label="contact">
+                  ☎️
+                </span>
+                Contact Me
+              </h1>
               <p className="contact-subtitle">
                 GET IN TOUCH, TALK ABOUT A PROJECT COLLABORATION, OR JUST SAY HI
                 !

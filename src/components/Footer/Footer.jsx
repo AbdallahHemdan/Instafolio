@@ -40,7 +40,7 @@ class Footer extends Component {
             rel="noopener noreferrer"
             title="Mail"
           >
-            <i className="fa fa-google"></i>
+            <i className="fa fa-envelope"></i>
             <span></span>
           </a>
           <a

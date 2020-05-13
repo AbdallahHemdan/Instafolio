@@ -67,7 +67,7 @@
 }
 
 .my-skills-text:hover {
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid var(--bg-nav-item-link);
 }
 
 @media (max-width: 1380px) {

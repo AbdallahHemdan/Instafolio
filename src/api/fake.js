@@ -17,17 +17,17 @@ import me5 from "./../assets/images/5.jpg"
 // Project Images
 import oudLogo from "./../assets/images/Oud.svg"
 import sh from "./../assets/images/Shortest_path.svg";
-import sorting from "./../assets/images/sorting.svg";
-import first from "./../assets/images/first.svg";
+import sorting from "./../assets/images/technology.svg";
+import first from "./../assets/images/cup.svg";
 import delivery from "./../assets/images/delivary.png";
 import paint from "./../assets/images/interface.svg";
-import didUMean from "./../assets/images/did-u-mean.png";
+import didUMean from "./../assets/images/round2.svg";
 import toolbox from "./../assets/images/algo.png";
 
 
 
 const aboutData = {
-  title: "Hey, I'm ",
+  title: "👋 Hey, I'm ",
   myName: "Hemdan",
   description: [
     "Computer Engineering Student at Faculty of Engineering Cairo University from Cairo, EG.",

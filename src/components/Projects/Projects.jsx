@@ -19,7 +19,12 @@ class Projects extends Component {
         <div className="projects-main" id="projects">
           <div className="project-main-div">
             <div className="project-header">
-              <h1 className="heading project-heading">Main Projects</h1>
+              <h1 className="heading project-heading">
+                <span role="img" aria-label="target">
+                  🎯
+                </span>
+                Main Projects
+              </h1>
               <p className="project-subtitle">
                 LIST OF MY OPEN SOURCE PROJECTS
               </p>
