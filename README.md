@@ -82,12 +82,10 @@ $ npm run start
  
 ![image](https://user-images.githubusercontent.com/40190772/81760232-fd295000-94c6-11ea-9749-4178185efd3a.png)
 ![image](https://user-images.githubusercontent.com/40190772/81760354-46799f80-94c7-11ea-90bb-364e83337e2c.png)
-![image](https://user-images.githubusercontent.com/40190772/81760460-880a4a80-94c7-11ea-9c98-a36e70cef811.png)
-![image](https://user-images.githubusercontent.com/40190772/81760573-dae40200-94c7-11ea-80c0-d9847aec10bd.png)
-![image](https://user-images.githubusercontent.com/40190772/81760629-0bc43700-94c8-11ea-9b25-7184c2bb5711.png)
-![image](https://user-images.githubusercontent.com/40190772/81760686-2f877d00-94c8-11ea-8c11-cdd16fe0e6d1.png)
+![Instafolio-light](https://user-images.githubusercontent.com/40190772/81766630-c9562680-94d6-11ea-9baf-ef9aae5ebda1.png)
 ![image](https://user-images.githubusercontent.com/40190772/81760824-9147e700-94c8-11ea-8041-af5b191525a7.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761087-4bd7e980-94c9-11ea-91e2-c2dabdd1e40f.png)
+![image](https://user-images.githubusercontent.com/40190772/81772012-f27db380-94e4-11ea-9c0b-5fd89c233904.png)
 
 </div>
 
@@ -97,11 +95,10 @@ $ npm run start
  
 ![image](https://user-images.githubusercontent.com/40190772/81760280-1af6b500-94c7-11ea-9fe9-1c449ac32fdd.png)
 ![image](https://user-images.githubusercontent.com/40190772/81760324-35309300-94c7-11ea-9910-9594578ae250.png)
-![image](https://user-images.githubusercontent.com/40190772/81760464-9193b280-94c7-11ea-8972-fad8694837af.png)
-![image](https://user-images.githubusercontent.com/40190772/81760597-ec2d0e80-94c7-11ea-8b06-d6fe7532a4cd.png)
-![Screenshot_2020-05-13 Instafolio](https://user-images.githubusercontent.com/40190772/81761221-ac672680-94c9-11ea-8080-f3cda38bef4c.png)
+![Instafolio-dark](https://user-images.githubusercontent.com/40190772/81766536-9e6bd280-94d6-11ea-949e-31d2e4ad568a.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761025-1cc17800-94c9-11ea-9a7f-e2910c3aa02d.png)
 ![image](https://user-images.githubusercontent.com/40190772/81761066-3d89cd80-94c9-11ea-950f-3b002a58e1c0.png)
+![image](https://user-images.githubusercontent.com/40190772/81771996-e3970100-94e4-11ea-83e7-c1cd111175cc.png)
 
 </div>
 
