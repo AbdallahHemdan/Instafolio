@@ -18,6 +18,7 @@ class Footer extends Component {
             className="icon-button github"
             target="_blank"
             rel="noopener noreferrer"
+            title="Github"
           >
             <i className="fa fa-github"></i>
             <span></span>
@@ -27,6 +28,7 @@ class Footer extends Component {
             className="icon-button linkedin"
             target="_blank"
             rel="noopener noreferrer"
+            title="LinkedIn"
           >
             <i className="fa fa-linkedin"></i>
             <span></span>
@@ -36,6 +38,7 @@ class Footer extends Component {
             className="icon-button google"
             target="_blank"
             rel="noopener noreferrer"
+            title="Mail"
           >
             <i className="fa fa-google"></i>
             <span></span>
@@ -45,6 +48,7 @@ class Footer extends Component {
             className="icon-button facebook"
             target="_blank"
             rel="noopener noreferrer"
+            title="Facebook"
           >
             <i className="fa fa-facebook-f"></i>
             <span></span>
@@ -54,6 +58,7 @@ class Footer extends Component {
             className="icon-button twitter"
             target="_blank"
             rel="noopener noreferrer"
+            title="Twitter"
           >
             <i className="fa fa-twitter"></i>
             <span></span>

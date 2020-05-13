@@ -12,7 +12,7 @@ class Navbar extends Component {
       <>
         <Fade top duration={1500}>
           <div className="nav-main fixed-top">
-            <a href="/#about" className="brand">
+            <a href="/" className="brand">
               <span className="bracket">{"<"}</span>
               <span className="brand-name">
                 <span className="first-name">Abdallah </span>
