@@ -8,11 +8,7 @@ import seven from "./../assets/images/me-7.svg";
 import eight from "./../assets/images/me-8.svg";
 import nine from "./../assets/images/me-9.svg";
 import ten from "./../assets/images/me-10.svg";
-import me1 from "./../assets/images/1.jpeg"
-import me2 from "./../assets/images/2.jpeg"
-import me3 from "./../assets/images/3.jpeg"
-import me4 from "./../assets/images/4.jpeg"
-import me5 from "./../assets/images/5.jpg"
+
 
 // Project Images
 import oudLogo from "./../assets/images/Oud.svg"
@@ -38,10 +34,7 @@ const aboutData = {
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
 };
 
-const hemdanImages = [me1, me2, me3, me4, me5];
-const flatImages = [one, two, three, four, five, six, seven, eight, nine, ten];
-const myImages = (true) ? flatImages : hemdanImages;
-
+const myImages = [one, two, three, four, five, six, seven, eight, nine, ten];
 
 const mySkills = [
   {
