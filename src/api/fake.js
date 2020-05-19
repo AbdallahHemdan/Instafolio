@@ -184,8 +184,8 @@ const projectsCards = [
     ],
     language: "Cpp",
     langColor: "yellow",
-    stars: 26,
-    forks: 23
+    stars: 28,
+    forks: 27
   }
 ];
 

@@ -1,31 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
-import Navbar from "../../components/Navbar/Navbar";
 import About from "../../components/About/About";
 import Projects from "./../../components/Projects/Projects";
 import ContactMe from "./../../components/ContactMe/ContactMe";
 import Footer from "./../../components/Footer/Footer";
 
-class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="home">
-        <Navbar
-          onThemeChange={this.props.onThemeChange}
-          light={this.props.light}
-        />
-        <About />
-        <Projects />
-        <ContactMe />
-        <Footer />
-      </div>
-    );
-  }
+function Home(props) {
+  return (
+    <div className="home">
+      <About />
+      <Projects />
+      <ContactMe />
+      <Footer />
+    </div>
+  );
 }
 
 export default Home;

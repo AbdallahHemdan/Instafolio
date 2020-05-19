@@ -4,11 +4,13 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import './App.css';
 
 import Home from './pages/Home/Home';
 import Project from './pages/Project/Project';
 import NoMatch from './pages/NoMatch/NoMatch';
+import Navbar from './components/Navbar/Navbar';
+
+import './App.css';
 
 class App extends Component {
 
@@ -44,23 +46,16 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <Navbar onThemeChange={this.handleChangeTheme} light={this.state.light} />
         <Switch>
           <Route exact path="/">
-            <Home
-              onThemeChange={this.handleChangeTheme}
-              light={this.state.light}
-            />
+            <Home />
           </Route>
           <Route path="/project">
-            <Project
-              onThemeChange={this.handleChangeTheme}
-              light={this.state.light}
-            />
+            <Project />
           </Route>
           <Route path="*">
-            <NoMatch onThemeChange={this.handleChangeTheme}
-              light={this.state.light}
-            />
+            <NoMatch />
           </Route>
         </Switch>
       </Router >
