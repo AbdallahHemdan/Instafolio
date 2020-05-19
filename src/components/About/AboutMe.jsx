@@ -2,9 +2,9 @@ import React from "react";
 import "./About.css";
 import { aboutData } from "./../../api/fake";
 
-const AboutMe = () => {
+const AboutMe = (props) => {
   return (
-    <React.Fragment>
+    <>
       <h1 className="about-text">
         {aboutData.title}
         <span className="highlight">{aboutData.myName}</span>
@@ -20,7 +20,7 @@ const AboutMe = () => {
       <h1 className="skills-text">
         <span className="my-skills-text">My Skills</span>
       </h1>
-    </React.Fragment>
+    </>
   );
 };
 
