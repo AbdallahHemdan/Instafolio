@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "./../../components/Navbar/Navbar";
 import ProjectCard from "./../../components/ProjectCard/ProjectCard";
 import Footer from "./../../components/Footer/Footer";
 import qs from "qs";
@@ -29,15 +28,22 @@ class Project extends Component {
       this.setState({ detailsIsLoaded: true });
     }
   }
+
   render() {
-    if (this.state.id > projectsCards.length)
+    if (this.state.id > projectsCards.length) {
       return <Redirect to="/no-match" />;
+    }
+    const {
+      title,
+      subtitle,
+      image,
+      footerLink,
+      language,
+      stars,
+      forks,
+    } = this.state.projectDetails;
     return (
       <div className="project">
-        <Navbar
-          onThemeChange={this.props.onThemeChange}
-          light={this.props.light}
-        />
         {this.state.detailsIsLoaded ? (
           <div className="project-main">
             <Fade left duration={1000}>
@@ -54,13 +60,13 @@ class Project extends Component {
               <div className="limit-card">
                 <ProjectCard
                   cardInfo={{
-                    title: this.state.projectDetails.title,
-                    description: this.state.projectDetails.subtitle,
-                    image: this.state.projectDetails.image,
-                    footer: this.state.projectDetails.footerLink,
-                    language: this.state.projectDetails.language,
-                    stars: this.state.projectDetails.stars,
-                    forks: this.state.projectDetails.forks,
+                    title: title,
+                    description: subtitle,
+                    image: image,
+                    footer: footerLink,
+                    language: language,
+                    stars: stars,
+                    forks: forks,
                   }}
                   full={true}
                 />
