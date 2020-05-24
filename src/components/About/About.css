@@ -4,10 +4,12 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .virtual-about {
   margin-bottom: 60px;
   scroll-margin-top: 60px;
 }
+
 .about-container {
   width: 100%;
   padding: 20px 10px;
@@ -19,15 +21,13 @@
   width: 90%;
   padding: 0 10px;
   margin: 0px auto;
-}
-
-.about-main {
   display: flex;
 }
 
 .about-main > * {
   flex: 1;
 }
+
 .about-text-container {
   display: flex;
   margin-top: 20px;
@@ -49,6 +49,7 @@
   font-size: 40px;
   margin-top: 20px;
 }
+
 .about-text-description {
   font-size: 20px;
   line-height: 40px;
@@ -88,27 +89,33 @@
   .about-text-container {
     justify-content: space-around;
   }
+
   .about-text,
   .skills-text {
     font-size: 30px;
     text-align: left;
     margin-bottom: 10px;
   }
+
   .skills-text {
     font-size: 20px;
   }
+
   .about-text-description {
     font-size: 14px;
     line-height: normal;
     text-align: left;
     padding-right: 5px;
   }
+
   .about-container {
     margin-top: 4rem;
   }
+
   .separator {
     font-size: 18px;
   }
+
   .about-main {
     display: block;
   }

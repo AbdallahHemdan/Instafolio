@@ -17,10 +17,10 @@
   -o-transition: ease-in 0.5s; /* opera */
   -ms-transition: ease-in 0.5s; /* IE 10 */
   -moz-transition: ease-in 0.5s; /* Firefox */
-  -webkit-transition: ease-in 0.5s; /*safari and chrome */
+  -webkit-transition: ease-in 0.5s; /* safari and chrome */
 }
 .main-button:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   color: black;
   transition: ease-in 0.3s;
 }
@@ -29,6 +29,7 @@
   justify-content: center;
   margin-top: 20px;
 }
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {

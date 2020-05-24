@@ -60,13 +60,13 @@ class Project extends Component {
               <div className="limit-card">
                 <ProjectCard
                   cardInfo={{
-                    title: title,
+                    title,
                     description: subtitle,
-                    image: image,
+                    image,
                     footer: footerLink,
-                    language: language,
-                    stars: stars,
-                    forks: forks,
+                    language,
+                    stars,
+                    forks,
                   }}
                   full={true}
                 />

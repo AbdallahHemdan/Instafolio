@@ -70,11 +70,13 @@
   font-size: 16px;
   cursor: pointer;
 }
+
 .main-button:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   color: black;
   transition: ease-in 0.3s;
 }
+
 .submit-button {
   display: flex;
   justify-content: left;

@@ -11,7 +11,7 @@ import ten from "./../assets/images/me-10.svg";
 
 
 // Project Images
-import oudLogo from "./../assets/images/Oud.svg"
+import oudLogo from "./../assets/images/Oud.svg";
 import sh from "./../assets/images/Shortest_path.svg";
 import sorting from "./../assets/images/technology.svg";
 import first from "./../assets/images/cup.svg";
@@ -88,7 +88,7 @@ const mySkills = [
     skillName: "GITHUB",
     class: "devicon-github-plain"
   }
-]
+];
 
 const projectsCards = [
   {
@@ -197,6 +197,6 @@ const socialMedia = {
   hackerrank: "https://www.hackerrank.com/Hemdan?hr_r=1",
   twitter: "https://twitter.com/Abdalla80820679",
   instagram: "https://www.instagram.com/abdallah_a_hemdan/"
-}
+};
 
-export { aboutData, myImages, mySkills, projectsCards, socialMedia }
+export { aboutData, myImages, mySkills, projectsCards, socialMedia };
