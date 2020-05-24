@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f567e02ab40c45d3b0d3e05fd02cdae8)](https://app.codacy.com/manual/AbdallahHemdan/Instafolio?utm_source=github.com&utm_medium=referral&utm_content=AbdallahHemdan/Instafolio&utm_campaign=Badge_Grade_Dashboard)
+
 [![GitHub contributors](https://img.shields.io/github/contributors/AbdallahHemdan/Instafolio)](https://github.com/AbdallahHemdan/Instafolio/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/AbdallahHemdan/Instafolio)](https://github.com/AbdallahHemdan/Instafolio/issues)
 [![GitHub forks](https://img.shields.io/github/forks/AbdallahHemdan/Instafolio)](https://github.com/AbdallahHemdan/Instafolio/network)
