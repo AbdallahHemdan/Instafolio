@@ -2,7 +2,8 @@
 
 <a href="https://github.com/AbdallahHemdan/Instafolio" rel="noopener">
   
-![Instafolio](https://user-images.githubusercontent.com/40190772/81759534-4678a000-94c5-11ea-8a02-2717608e1776.png)
+![Instafolio2](https://user-images.githubusercontent.com/40190772/83821990-2ad17580-a6d0-11ea-86b7-239bf0f94cb4.png)
+
 
 </a>
 
